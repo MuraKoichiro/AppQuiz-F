@@ -78,12 +78,11 @@
 	}
 
 	public static int situmon4() {
-		int ans4 = 0;
+		Scanner sc = new Scanner(System.in);
 		System.out.println("公衆トイレでよく見るトイレットペーパーの三角織の意味は何でしょう")//質問内容;
 		System.out.println("1.清掃完了の印 2.豪華に見せるため 3.紙を引き出しやすいように")//回答内容;
-		System.out.println("1")//ユーザーが答えを入力.;
 
-
+		ans4 = sc.nextInt();
 
 
 
